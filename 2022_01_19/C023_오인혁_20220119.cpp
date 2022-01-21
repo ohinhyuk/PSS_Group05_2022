@@ -38,5 +38,6 @@ int main(int args, char** argv){
     for(int i = 0 ; i <5 ; ++i){
         cout << result[i] << ' ';
     }
+    
 
 }

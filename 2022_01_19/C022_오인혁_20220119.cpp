@@ -29,7 +29,7 @@ int solution(vector<int> nums) {
     sort(nums.begin(), nums.end());
     
     v = all_sosu(nums[nums.size()-1]);
-    // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
+    
     for(int a = 0 ; a < nums.size()-2 ; ++a){
         for(int b = a+1 ; b < nums.size()-1 ; ++b){
             for(int c = b+1 ; c < nums.size() ; ++c){
